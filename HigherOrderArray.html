@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        const companies = [
+            { Chennai: [
+                    { name: 'Chennai one', category: 'finance' },
+                    { name: 'Chennai two', category: 'Trade' }
+                ]
+            },
+            { Coimbatore: [
+                    { name: 'Coimbatore one', category: 'finance' },
+                    { name: 'Coimbatore two', category: 'Trade' }
+                ]
+            }
+        ];
+        const ages = [33, 34,35,36,4,5,85,3,5];
+
+        for (i in ages) {
+            // console.log(ages[i])
+        }
+console.log(companies)
+        companies.forEach((item, index, data) => {
+            item.forEach((widget) => {
+                console.log(widget)
+            });
+        });
+    </script>
+</body>
+
+</html>
